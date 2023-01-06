@@ -13,7 +13,7 @@ vim.opt.termguicolors = true
 -- OR setup with some options
 require("nvim-tree").setup({
 
-	NvimTreeNormal = { fg = "none", bg = "none" },
+--	NvimTreeNormal = { fg = "none", bg = "none" },
 
 	hijack_cursor = true,
 	hijack_netrw = true,
