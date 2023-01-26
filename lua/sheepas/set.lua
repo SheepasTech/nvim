@@ -5,10 +5,10 @@ vim.api.nvim_set_option('mouse', 'a')	-- Enable mouse
 vim.opt.nu = true				-- Enable line numbers
 vim.opt.relativenumber = true	-- Enable line numbers realitive to current line
 
-vim.opt.tabstop = 4				
-vim.opt.softtabstop = 4			
-vim.opt.shiftwidth = 4			
-vim.opt.expandtab = false		
+vim.opt.tabstop = 4
+vim.opt.softtabstop = 4
+vim.opt.shiftwidth = 4
+vim.opt.expandtab = false
 
 vim.opt.smartindent = true		-- Reacts to the syntax/style of the code you are editing (especially for C). Used with 'autoindent'
 
@@ -29,6 +29,4 @@ vim.opt.signcolumn = "yes"
 vim.opt.isfname:append("@-@")
 
 vim.opt.updatetime = 50
-
-vim.opt.colorcolumn = "80"
 
